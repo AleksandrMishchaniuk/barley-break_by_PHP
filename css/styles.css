@@ -1,0 +1,62 @@
+*{
+    font-family: 'Underdog', cursive;
+}
+body{
+    background: black;
+}
+#wrap{
+    background: white;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 10px solid gray;
+}
+#panel{
+    text-align: center;
+    margin: 20px;
+}
+.nut, .void{
+    width: 25%;
+    height: 25%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+.nut{
+    background: white;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30pt;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 20px dimgray, 
+                inset -2px -2px 20px dimgray;
+}
+.near:hover{
+    background: lightgreen;
+}
+.win{
+    background: lightgreen;
+}
+.header{
+    text-align: center;
+    font-size: 30pt;
+    margin: 10px;
+    color: saddlebrown;
+}
+.congratulation{
+    color: green;
+}
+#panel button{
+    font-size: 20pt;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#panel button:hover{
+    background: saddlebrown;
+    color: white;
+}
